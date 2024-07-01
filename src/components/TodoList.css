@@ -1,0 +1,52 @@
+.todo-list {
+  width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.todo-list h1 {
+  margin-bottom: 20px;
+}
+
+.todo-list input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo-list button {
+  width: 30%;
+  padding: 10px;
+  background-color: #3f0a90;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-list button:hover {
+  background-color: #0056b3;
+}
+
+.todo-list .todo-list-container {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.todo-list .todo-list-container h2 {
+  margin: 0 0 10px 0;
+}
+
+.task-container {
+  margin-bottom: 20px;
+}
